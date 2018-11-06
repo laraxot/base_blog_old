@@ -1,0 +1,22 @@
+{
+  "name": "laraxot blog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "marco76tv <marco.sottana@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/laraxot/base_blog",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../public_html/bc",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "https://github.com/almasaeed2010/AdminLTE",
+    "admin-lte": "almasaeed2010/AdminLTE#^2.4.8"
+  }
+}

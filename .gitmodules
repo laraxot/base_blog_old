@@ -7,9 +7,6 @@
 [submodule "laravel/packages/XRA/Blog"]
 	path = laravel/packages/XRA/Blog
 	url = https://github.com/laraxot/package_blog.git
-[submodule "public_html/themes/lans-see"]
-	path = public_html/themes/lans-see
-	url = https://github.com/laraxot/theme_land-see.git
 [submodule "public_html/themes/land-see"]
 	path = public_html/themes/land-see
 	url = https://github.com/laraxot/theme_land-see.git
