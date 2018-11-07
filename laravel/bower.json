@@ -18,5 +18,8 @@
   "dependencies": {
     "AdminLTE": "https://github.com/almasaeed2010/AdminLTE",
     "admin-lte": "almasaeed2010/AdminLTE#^2.4.8"
+  },
+  "resolutions": {
+    "jquery": ">=1.8"
   }
 }
