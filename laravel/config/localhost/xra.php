@@ -2,28 +2,18 @@
 
 return [
 	'pub_theme'=>'land-see',
-
+    'adm_theme'=>'adminlte',
 	'model' => [
-		'blog'          => \XRA\Blog\Models\Post::class,  //-------- TEST
+        //'blog'          => \XRA\Blog\Models\Post::class,  //-------- TEST
+        'post'          => \XRA\Blog\Models\Post::class,  //-------- TEST
+        'postCat' 		=> \XRA\Blog\Models\PostCat::class,
 		'home'          => \XRA\Blog\Models\Post::class,  //-------- TEST
 		'page'          => \XRA\Blog\Models\Page::class,
 		'feed'          => \XRA\Blog\Models\Feed::class,
-		'sitemap'       => \XRA\Blog\Models\Sitemap::class,
-		'restaurant'    => \XRA\Food\Models\Restaurant::class,
-		'restaurant_owner' => \XRA\Food\Models\RestaurantOwner::class,
-		'recipe'        => \XRA\Food\Models\Recipe::class,
-		'news'          => \XRA\Food\Models\News::class,
-		'photo'         => \XRA\Food\Models\Photo::class,
-		'cuisine'       => \XRA\Food\Models\Cuisine::class,
-		'cuisineCat'    => \XRA\Food\Models\CuisineCat::class,  // incerto se cuisineCat o cuisine_cat
-		'ingredient'    => \XRA\Food\Models\Ingredient::class,
-		'ingredientCat' => \XRA\Food\Models\IngredientCat::class,
-		'location'      => \XRA\Food\Models\Location::class,
-		'profile'       => \XRA\Food\Models\Profile::class,
-		'cart'          => \XRA\Blog\Models\CartItem::class,
+        'sitemap'       => \XRA\Blog\Models\Sitemap::class,
 	],
-	'migrate_packs'=>['xra','blog','lu','import','food','seo','backend'],
-	'enable_packs'=>['frontend','backend','lu','blog','extend','import','food','seo','xra','settings'],
+	'migrate_packs'=>['xra','blog','lu','backend'],
+	'enable_packs'=>['frontend','backend','lu','blog','extend','xra','settings'],
 	/*
 	'post'=>[
 		'type'=>[
