@@ -16,11 +16,22 @@ git submodule update --init --checkout --force
 
 cd laravel 
 
-cp .env.example .env
+cp .env.latest .env
 
 composer update
 
-bower update --save 
+bower update --save --force
+
+update your .env 
 
 open browser
+
+for migrations 
+
+http://localhost/blogx/public_html?migrate=1
+
+--------
+
+
+
 
