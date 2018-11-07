@@ -17,7 +17,8 @@
   ],
   "dependencies": {
     "AdminLTE": "https://github.com/almasaeed2010/AdminLTE",
-    "admin-lte": "almasaeed2010/AdminLTE#^2.4.8"
+    "admin-lte": "almasaeed2010/AdminLTE#^2.4.8",
+    "bootstrap-languages": "usrz/bootstrap-languages"
   },
   "resolutions": {
     "jquery": ">=1.8"
