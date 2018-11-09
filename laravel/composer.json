@@ -16,7 +16,8 @@
         "laravelcollective/html": "^5.7",
         "teamtnt/laravel-scout-tntsearch-driver": "*",
         "teamtnt/tntsearch": "^1.4",
-        "unisharp/laravel-filemanager": "^1.9"
+        "unisharp/laravel-filemanager": "^1.9",
+        "zendframework/zend-config": "^3.2"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
