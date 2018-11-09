@@ -22,3 +22,6 @@
 [submodule "laravel/packages/XRA/LU"]
 	path = laravel/packages/XRA/LU
 	url = https://github.com/laraxot/package_lu.git
+[submodule "public_html/themes/minimal_blog"]
+	path = public_html/themes/minimal_blog
+	url = https://github.com/laraxot/theme_amp_minimal_blog.git

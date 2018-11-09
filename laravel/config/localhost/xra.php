@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'pub_theme'=>'land-see',
+	'pub_theme'=>'minimal_blog',
     'adm_theme'=>'adminlte',
 	'model' => [
         //'blog'          => \XRA\Blog\Models\Post::class,  //-------- TEST
