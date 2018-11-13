@@ -7,5 +7,3 @@ mkdir -p $bak_dir/laravel
 mkdir -p $bak_dir/public_html
 cp -uvR ../$curr_dir/laravel/packages $bak_dir/laravel
 cp -uvR ../$curr_dir/public_html/themes $bak_dir/public_html
-
-

@@ -28,3 +28,9 @@
 [submodule "public_html/themes/prettydocs"]
 	path = public_html/themes/prettydocs
 	url = https://github.com/laraxot/theme_prettydocs.git
+[submodule "laravel/packages/XRA/Install"]
+	path = laravel/packages/XRA/Install
+	url = https://github.com/laraxot/package_install.git
+[submodule "laravel/packages/XRA/Settings"]
+	path = laravel/packages/XRA/Settings
+	url = https://github.com/laraxot/package_settings.git
