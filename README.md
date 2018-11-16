@@ -1,5 +1,5 @@
 # base_blog
-
+===
 requirements:
 
 install stack lamp (linux-apache-mysql-php)
@@ -74,6 +74,7 @@ cd /etc/apache2/sites-available/
 nano 000-default.conf
 
 add:
+'''
 <Directory "/var/www/html">
 
 	Options Indexes FollowSymLinks MultiViews
@@ -83,9 +84,9 @@ add:
 	Require all granted
 	
 </Directory>
+'''
 
-
---------
+---
 
 
 
