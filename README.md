@@ -85,7 +85,6 @@ add:
 </Directory>
 
 
-enjoy the blog!
 --------
 
 
