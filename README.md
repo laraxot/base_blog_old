@@ -75,10 +75,15 @@ nano 000-default.conf
 
 add:
 <Directory "/var/www/html">
+
 	Options Indexes FollowSymLinks MultiViews
+	
 	AllowOverride All
+	
 	Require all granted
+	
 </Directory>
+
 
 enjoy the blog!
 --------
