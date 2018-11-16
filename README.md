@@ -1,7 +1,7 @@
 # base_blog
 
 requirements:
-
+```
 install stack lamp (linux-apache-mysql-php)
 
 update Php:
@@ -23,9 +23,8 @@ Ctype PHP Extension
 JSON PHP Extension
 
 php_sqlite3 Extension
-
 php_gd Extension
-
+```
 
 For installation on linux:
 
