@@ -77,6 +77,6 @@ add:
 
 ---
 
-
+enjoy the blog!
 
 
