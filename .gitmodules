@@ -34,3 +34,6 @@
 [submodule "laravel/packages/XRA/Settings"]
 	path = laravel/packages/XRA/Settings
 	url = https://github.com/laraxot/package_settings.git
+[submodule "public_html/themes/amp_simpleblog"]
+	path = public_html/themes/amp_simpleblog
+	url = https://github.com/laraxot/theme_amp_simpleblog.git
