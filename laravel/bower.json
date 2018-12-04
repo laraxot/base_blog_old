@@ -22,7 +22,8 @@
     "tinymce": "^4.8.5",
     "multiselect": "crlcu/multiselect#^2.5.5",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^7.29.1"
+    "sweetalert2": "^7.29.1",
+    "iCheck": "fronteed/icheck#^1.0.2"
   },
   "resolutions": {
     "jquery": ">=1.8"
