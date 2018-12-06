@@ -1,6 +1,6 @@
 <?php
 return array(
-    'pub_theme' => 'amp_simpleblog',
+    'pub_theme' => 'minimal_blog',
     'adm_theme' => 'adminlte',
     'model' => array(
         'article' => 'XRA\Blog\Models\Article',
