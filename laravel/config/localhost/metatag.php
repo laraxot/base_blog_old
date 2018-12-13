@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title'=>'Food Friend Finder',
+    'title'=>'Localhost',
     'sitename'=>'foodfriendfinder',
     'subtitle'=>'Find restaurants, specials, and coupons for free',
     'sottotitolo_comune' => '',
@@ -18,9 +18,18 @@ return [
     'logo_alt' => 'Logo',
     'hide_megamenu' => false,
     'hero_type' =>    'with_megamenu_bottom',
-    'facebook_href' => 'aa',
+    'facebook_href' => 'https://www.facebook.com/hfashionit/',
+    'facebook_followers_count' => '2000',
+    'facebook_pagename' => 'hfashionit',
     'twitter_href' => '',
+    'twitter_followers_count' => '1450',
+    'twitter_pagename' => 'hfashionnit',
+    'social_google_plus_href' => 'https://twitter.com/hfashionit',
+    'social_google_plus_followers_count' => '500',
+    'social_google_plus_pagename' => 'hfashionnit',
     'youtube_href' => '',
+    'youtube_followers_count' => '33',
+    'youtube_pagename' => 'hfashionnit',
     'fastlink' => false,
     'color_primary' => '#0071b0',
     'color_title' => 'white',
