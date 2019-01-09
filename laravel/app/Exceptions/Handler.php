@@ -32,11 +32,15 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $exception
      * @return void
      */
-    public function report(Exception $exception)
+    public function report(Exception $e)
     {
-        parent::report($exception);
+        if ($this->shouldReport($e)) {
+            $user = \XRA\LU\Models\User::first();
+            $user->notify(new \XRA\XRA\Notifications\ExceptionSlack($e));
+        }
+        parent::report($e);
     }
-
+    
     /**
      * Render an exception into an HTTP response.
      *
