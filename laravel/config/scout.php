@@ -15,8 +15,8 @@ return [
     |
     */
 
-    //'driver' => env('SCOUT_DRIVER', 'algolia'),
-    'driver' => 'tntsearch', 
+    'driver' => env('SCOUT_DRIVER', 'algolia'),
+    //'driver' => 'tntsearch', 
 
     /*
     |--------------------------------------------------------------------------
