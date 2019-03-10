@@ -17,7 +17,6 @@ return array(
         3 => 'backend',
     ),
     'enable_packs' => array(
-        0 => 'frontend',
         1 => 'backend',
         2 => 'lu',
         3 => 'blog',
