@@ -37,3 +37,6 @@
 [submodule "public_html/themes/amp_simpleblog"]
 	path = public_html/themes/amp_simpleblog
 	url = https://github.com/laraxot/theme_amp_simpleblog.git
+[submodule "public_html/noconsole"]
+	path = public_html/noconsole
+	url = https://github.com/laraxot/noconsole.git
