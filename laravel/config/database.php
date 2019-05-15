@@ -1,6 +1,8 @@
 <?php
 
-$default= [
+use Illuminate\Support\Str;
+
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -35,6 +37,7 @@ $default= [
 
         'sqlite' => [
             'driver' => 'sqlite',
+            'url' => env('DATABASE_URL'),
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
@@ -42,6 +45,7 @@ $default= [
 
         'mysql' => [
             'driver' => 'mysql',
+            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
@@ -61,6 +65,7 @@ $default= [
 
         'pgsql' => [
             'driver' => 'pgsql',
+            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'forge'),
@@ -75,6 +80,7 @@ $default= [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
+            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '1433'),
             'database' => env('DB_DATABASE', 'forge'),
@@ -117,6 +123,7 @@ $default= [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'predis'),
+            'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_').'_database_',
         ],
 
         'default' => [
@@ -136,9 +143,3 @@ $default= [
     ],
 
 ];
-
-require_once(base_path('packages/XRA/XRA/src/Helpers/Helper.php'));
-$site=getConfig(['file'=>basename(__FILE__)]);
-$out=array_merge($default, $site);
-//echo '<pre>';print_r($out);echo '</pre>';
-return $out;
